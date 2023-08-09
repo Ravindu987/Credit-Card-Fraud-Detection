@@ -1,3 +1,4 @@
 *.hdf5
-*.csv
+output.csv
+card_transdata.csv
 Dataset1
