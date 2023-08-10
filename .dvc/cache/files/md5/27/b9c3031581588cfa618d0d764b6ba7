@@ -1,0 +1,15 @@
+artifact_uri: file:///media/ravindu/Ravindu/Sem%207/HDL/Project/Test/Dataset2/mlruns/0/1b1f22bde1de400895af75a6f4239d7b/artifacts
+end_time: 1691651055692
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1b1f22bde1de400895af75a6f4239d7b
+run_name: bustling-slug-89
+run_uuid: 1b1f22bde1de400895af75a6f4239d7b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1691650737591
+status: 4
+tags: []
+user_id: ravindu
