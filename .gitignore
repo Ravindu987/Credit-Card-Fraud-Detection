@@ -1,6 +1,4 @@
 *.hdf5
 output.csv
 card_transdata.csv
-Dataset1
-Dataset2/data
-Dataset2/mlruns
+data
