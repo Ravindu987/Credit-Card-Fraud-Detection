@@ -1,0 +1,22 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Wenuka/Documents/HDL_Final_Project/HDL_Final_Project.srcs/sources_1/new/Layer_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Layer_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Wenuka/Documents/HDL_Final_Project/HDL_Final_Project.srcs/sources_1/new/Layer_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Layer_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Wenuka/Documents/HDL_Final_Project/HDL_Final_Project.srcs/sources_1/new/Layer_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Layer_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Wenuka/Documents/HDL_Final_Project/HDL_Final_Project.srcs/sources_1/new/Sig_ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sig_ROM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Wenuka/Documents/HDL_Final_Project/HDL_Final_Project.srcs/sources_1/new/Weight_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Weight_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Wenuka/Documents/HDL_Final_Project/HDL_Final_Project.srcs/sources_1/new/axi_lite_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_lite_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Wenuka/Documents/HDL_Final_Project/HDL_Final_Project.srcs/sources_1/new/neuron.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Wenuka/Documents/HDL_Final_Project/HDL_Final_Project.srcs/sources_1/new/relu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ReLU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Wenuka/Documents/HDL_Final_Project/HDL_Final_Project.srcs/sources_1/new/zynet.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zyNet
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Wenuka/Downloads/top_sim.v" into library xil_defaultlib
+ERROR: [VRFC 10-3195] cannot open include file '..\rtl\include.v' [C:/Users/Wenuka/Downloads/top_sim.v:22]
+INFO: [VRFC 10-311] analyzing module top_sim
+ERROR: [VRFC 10-8530] module 'top_sim' is ignored due to previous errors [C:/Users/Wenuka/Downloads/top_sim.v:26]
