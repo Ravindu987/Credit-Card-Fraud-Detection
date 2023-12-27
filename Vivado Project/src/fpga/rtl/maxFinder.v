@@ -18,9 +18,8 @@ begin
         maxValue <= i_data[inputWidth-1:0];
         counter <= 1;
         inDataBuffer <= i_data;
-        o_data <= (i_data[inputWidth-1:0] > 16'b1111111111111101) ? 1 : 0;
+        o_data <= (i_data[inputWidth-1:0] > 12'b100000000000) ? 1 : 0;
         o_data_valid <= 1'b1;
-        $display("MAXXX",,"%b",i_data[inputWidth-1:0]);
     end
 end
 

@@ -1,4 +1,3 @@
-`define DEBUG
 `define pretrained
 `define numLayers 4
 `define dataWidth 16

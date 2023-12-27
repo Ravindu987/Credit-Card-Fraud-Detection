@@ -123,6 +123,8 @@ reg [`numNeuronLayer1*`dataWidth-1:0] holdData_1;
 reg [`dataWidth-1:0] out_data_1;
 reg data_out_valid_1;
 
+
+
 Layer_1 #(.NN(`numNeuronLayer1),.numWeight(`numWeightLayer1),.dataWidth(`dataWidth),.layerNum(1),.sigmoidSize(`sigmoidSize),.weightIntWidth(`weightIntWidth),.actType(`Layer1ActType)) l1(
 	.clk(s_axi_aclk),
 	.rst(reset),

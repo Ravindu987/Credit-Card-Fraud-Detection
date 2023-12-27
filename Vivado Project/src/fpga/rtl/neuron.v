@@ -198,7 +198,7 @@ module neuron #(parameter layerNo=0,neuronNo=0,numWeight=784,dataWidth=16,sigmoi
     always @(posedge clk)
     begin
         if(outvalid)
-            $display(layerNo,,neuronNo,,,,"%b",out);
+            $display(neuronNo,,,,"%b",out);
     end
     `endif
 endmodule

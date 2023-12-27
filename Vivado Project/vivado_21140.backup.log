@@ -1,0 +1,54 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue Dec 26 23:51:47 2023
+# Process ID: 21140
+# Current directory: C:/Users/Wenuka/Documents/neuralNetwork/Tut-8
+# Command line: vivado.exe -mode tcl -source C:\Users\Wenuka\AppData\Local\Programs\Python\Python312\Lib\site-packages\zynet\db/makeIP.tcl -tclargs Fraud_Detect/Fraud_Detect.xpr
+# Log file: C:/Users/Wenuka/Documents/neuralNetwork/Tut-8/vivado.log
+# Journal file: C:/Users/Wenuka/Documents/neuralNetwork/Tut-8\vivado.jou
+# Running On: DESKTOP-LB2P0KI, OS: Windows, CPU Frequency: 2208 MHz, CPU Physical cores: 6, Host memory: 17017 MB
+#-----------------------------------------------------------
+source {C:\Users\Wenuka\AppData\Local\Programs\Python\Python312\Lib\site-packages\zynet\db/makeIP.tcl}
+# open_project [lindex $argv 0]
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Wenuka/Documents/neuralNetwork/Tut-8/Fraud_Detect/Fraud_Detect.gen/sources_1'.
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'C:/Users/Wenuka/Documents/neuralNetwork/Tut-8/Fraud_Detect/p_user_files'.
+Scanning sources...
+Finished scanning sources
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 508.125 ; gain = 219.562
+# ipx::package_project -root_dir ./src/fpga -vendor VIP -library user -taxonomy /UserIP
+INFO: [IP_Flow 19-1842] HDL Parser: Found include file "rtl/include.v" from the top-level HDL file.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/Vivado/Vivado/2023.1/data/ip'.
+INFO: [IP_Flow 19-5107] Inferred bus interface 's_axi' of definition 'xilinx.com:interface:aximm:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's_axi_aresetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's_axi_aclk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'intr' of definition 'xilinx.com:signal:interrupt:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 's_axi_aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 'intr': Added interface parameter 'SENSITIVITY' with value 'LEVEL_HIGH'.
+INFO: [IP_Flow 19-4728] Bus Interface 's_axi_aclk': Added interface parameter 'ASSOCIATED_BUSIF' with value 's_axi'.
+INFO: [IP_Flow 19-4728] Bus Interface 's_axi_aclk': Added interface parameter 'ASSOCIATED_RESET' with value 's_axi_aresetn'.
+WARNING: [IP_Flow 19-11770] Clock interface 's_axi_aclk' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+# ipx::add_bus_interface axis_data [ipx::current_core]
+# set_property abstraction_type_vlnv xilinx.com:interface:axis_rtl:1.0 [ipx::get_bus_interfaces axis_data -of_objects [ipx::current_core]]
+# set_property bus_type_vlnv xilinx.com:interface:axis:1.0 [ipx::get_bus_interfaces axis_data -of_objects [ipx::current_core]]
+# ipx::add_port_map TVALID [ipx::get_bus_interfaces axis_data -of_objects [ipx::current_core]]
+# set_property physical_name axis_in_data_valid [ipx::get_port_maps TVALID -of_objects [ipx::get_bus_interfaces axis_data -of_objects [ipx::current_core]]]
+# ipx::add_port_map TREADY [ipx::get_bus_interfaces axis_data -of_objects [ipx::current_core]]
+# set_property physical_name axis_in_data_ready [ipx::get_port_maps TREADY -of_objects [ipx::get_bus_interfaces axis_data -of_objects [ipx::current_core]]]
+# ipx::add_port_map TDATA [ipx::get_bus_interfaces axis_data -of_objects [ipx::current_core]]
+# set_property physical_name axis_in_data [ipx::get_port_maps TDATA -of_objects [ipx::get_bus_interfaces axis_data -of_objects [ipx::current_core]]]
+# set_property core_revision 1 [ipx::current_core]
+# set_property value s_axi:axis_data [ipx::get_bus_parameters ASSOCIATED_BUSIF -of_objects [ipx::get_bus_interfaces s_axi_aclk -of_objects [ipx::current_core]]]
+# ipx::create_xgui_files [ipx::current_core]
+# ipx::update_checksums [ipx::current_core]
+# ipx::save_core [ipx::current_core]
+# update_ip_catalog
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+# exit
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 26 23:52:00 2023...
